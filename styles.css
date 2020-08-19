@@ -1,0 +1,120 @@
+body{
+  background:black;
+}
+.box{
+  display:flex;
+  flex-wrap:wrap;
+  overflow:auto;
+  border:2px solid black;
+ 
+  background-image:linear-gradient(to left bottom,red,orange,yellow);
+}
+
+.head-1{
+  
+  margin:2%;
+  padding:3px;
+  width:130px;
+  text-align:center;
+  color:black;
+  
+}
+.hide{
+  display:none;
+}
+.head-1:hover .hide{
+  display:block;
+  background:black;
+  color:white;
+  opcity:1;
+}
+.head-1:hover{
+  opacity:0.5;
+ 
+}
+li,a{
+  text-decoration:none;
+  list-style:none;
+}
+.menu{
+ 
+  
+  border:2px solid;
+ /* background:blue;*/
+  overflow:auto;
+ 
+}
+.nav-1{
+  float:left;
+  border:1px solid ;
+  margin:1%;
+  background-image:radial-gradient(linen,yellow,orange);
+  margin:2%;
+  width:100px;
+  height:30px;
+  text-align:center;
+ 
+}
+.nav-1:hover{
+  opacity:0.6;
+}
+.nav-1:active{
+  opacity:1;
+  background:yellow;
+  width:105px;
+  height:35px;
+}
+a{
+  color:black; 
+}
+section{
+ height:100%;
+ width:50%;
+ float:left;
+  background-image:url("https://hbr.org/resources/images/article_assets/2016/09/further-readying-business_writing_HomeWidget.jpg");
+  background-size:cover;
+}
+article{
+  border:1px solid black;
+  margin:0%;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGZNCevAj-j7DWkvtXc8-Aui4mi_mXtbVqTw&usqp=CAU");
+  background-size:cover;
+  color:white;
+}
+.wrap{
+  display:block;
+ 
+  position:relative;
+  overflow:auto;
+  
+}
+aside{
+  margin-top:3%;
+  border:1px solid black;
+  overflow:auto;
+  background:goldenrod;
+  margin-left:50%;
+  position:absolute;
+  top:5px;
+  
+}
+.image{
+  max-width:100%;
+  border:2px solid red;
+  float:right;
+  
+}
+#div{
+
+background:gray;
+
+}
+footer{
+  background:black;
+  color:white;
+  overflow:auto;
+}
+.copyright{
+  text-align:center;
+  color:white;
+}
